@@ -1,0 +1,7 @@
+*.dat
+ido.last
+*.eld
+*.elc
+recentf
+themes
+elpa/
