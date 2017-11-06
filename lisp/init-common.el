@@ -2,7 +2,6 @@
 
 (require 'evil)
 (require 'ivy)
-(require 'auto-complete)
 (require 'windmove)
 (require 'async)
 (require 'ag)
@@ -20,8 +19,6 @@
 (setq make-backup-files nil) ; stop creating backup~ files
 (setq auto-save-default nil) ; stop creating #autosave# files
 
-
-(ac-config-default)
 
 (evil-mode 1)
 ;(ido-mode t)
