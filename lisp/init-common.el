@@ -1,7 +1,7 @@
 ; init-common.el
 
 (require 'evil)
-(require 'ivy)
+;(require 'ivy)
 (require 'windmove)
 (require 'async)
 (require 'ag)
@@ -14,6 +14,9 @@
 (setq inhibit-splash-screen t
       initial-scratch-message nil
       initial-major-mode 'ruby-mode)
+
+(defadvice load-theme (before theme-dont-propagate activate)
+ (mapcar #'disable-theme custom-enabled-themes))
 
 (load-theme 'spacemacs-dark t)
 (setq make-backup-files nil) ; stop creating backup~ files
