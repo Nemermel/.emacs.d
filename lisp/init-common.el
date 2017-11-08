@@ -1,10 +1,13 @@
 ; init-common.el
 
 (require 'evil)
+(require 'roguel-ike)
 ;(require 'ivy)
 (require 'windmove)
 (require 'async)
 (require 'ag)
+(require 'markdown-mode)
+(require 'all-the-icons)
 (autoload 'dired-async-mode "dired-async.el" nil t)
 (dired-async-mode 1)
 (async-bytecomp-package-mode 1)
@@ -18,13 +21,12 @@
 (defadvice load-theme (before theme-dont-propagate activate)
  (mapcar #'disable-theme custom-enabled-themes))
 
-(load-theme 'spacemacs-dark t)
+(load-theme 'base16-eighties t)
 (setq make-backup-files nil) ; stop creating backup~ files
 (setq auto-save-default nil) ; stop creating #autosave# files
 
 
 (evil-mode 1)
-;(ido-mode t)
 (windmove-default-keybindings 'meta)
 (tool-bar-mode -1)
 (display-time-mode 1)
@@ -35,7 +37,7 @@
 
 ;; Typography
 (set-face-attribute 'default nil
-                    :family "Monaco"
+                    :family "Monospace"
                     :height 100
                     :weight 'normal
                     :width 'normal)
