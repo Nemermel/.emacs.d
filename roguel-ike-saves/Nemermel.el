@@ -1,0 +1,1 @@
+("Nemermel" :human (:spirit (5 . 0) :speed (5 . 0) :constitution (5 . 0) :strength (5 . 0) :stamina (10 . 0) :health (10 . 0)))

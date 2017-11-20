@@ -1,0 +1,10 @@
+;; -*- emacs-lisp -*- <17/11/17 18:23:14 /home/shmebulok/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+((["ssh" "developer_kovalenko" "jointoit.com#22" nil nil]
+  nil)
+ (["ssh" nil "jointoit.com" nil nil]
+  nil)
+ (["ssh" "developer_kovalenko" "jointoit.com" nil nil]
+  nil))
