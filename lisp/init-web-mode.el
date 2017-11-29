@@ -7,6 +7,7 @@
 (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html.twig\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.blade.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\'" . web-mode))
 
 ; настройка отступов
 (setq web-mode-markup-indent-offset 2)

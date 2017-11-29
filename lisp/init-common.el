@@ -8,6 +8,7 @@
 (require 'ag)
 (require 'markdown-mode)
 (require 'all-the-icons)
+(require 'cmake-mode)
 (autoload 'dired-async-mode "dired-async.el" nil t)
 (dired-async-mode 1)
 (async-bytecomp-package-mode 1)

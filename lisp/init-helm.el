@@ -10,5 +10,4 @@
 (global-set-key (kbd "C-s") #'helm-occur)
 (helm-mode 1)
 
-
 (provide 'init-helm)
